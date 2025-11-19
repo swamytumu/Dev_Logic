@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Logic Infotech - Software Solutions</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="images/company logo.jpg" alt="Dev Logic Infotech Logo" class="logo-img me-3">
+                <span class="logo-text-brand">
+                    <span class="logo-dev-logic">DEV LOGIC</span>
+                    <span class="logo-infotech">INFOTECH</span>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#careers">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pe-lg-4">
+                    <h1 class="hero-title">Innovative Software Solutions</h1>
+                    <p class="hero-subtitle">Transforming ideas into powerful digital experiences</p>
+                    <p class="hero-description">We deliver cutting-edge software solutions that drive business growth and technological excellence.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary btn-lg me-3">Get Started</a>
+                        <a href="#services" class="btn btn-outline-light btn-lg">Our Services</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-4">
+                    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image.png" alt="Software Development" class="slider-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/image.png" alt="Technology Solutions" class="slider-image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/api.png" alt="Innovation" class="slider-image">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">About Dev Logic Infotech</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Your trusted partner in digital transformation</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="about-heading">Excellence in Every Line of Code</h3>
+                        <p>Dev Logic Infotech is a leading software development company dedicated to delivering innovative solutions that empower businesses to thrive in the digital age.</p>
+                        <p>With a team of experienced developers and designers, we combine technical expertise with creative vision to build software that not only meets but exceeds expectations.</p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Years of Industry Experience</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Expert Development Team</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Client-Focused Approach</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Cutting-Edge Technologies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="500">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="200">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-label">Team Members</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title text-white">Our Services</h2>
+                    <div class="title-underline bg-white"></div>
+                    <p class="section-subtitle text-white">Comprehensive software solutions for your business</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4 class="service-title">Web Development</h4>
+                        <p class="service-description">Custom web applications built with modern technologies and best practices.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4 class="service-title">Mobile Development</h4>
+                        <p class="service-description">Native and cross-platform mobile apps for iOS and Android devices.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h4 class="service-title">Cloud Solutions</h4>
+                        <p class="service-description">Scalable cloud infrastructure and migration services.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4 class="service-title">Database Management</h4>
+                        <p class="service-description">Efficient database design, optimization, and maintenance.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="service-title">Cybersecurity</h4>
+                        <p class="service-description">Comprehensive security solutions to protect your digital assets.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4 class="service-title">Maintenance & Support</h4>
+                        <p class="service-description">Ongoing support and maintenance to keep your systems running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Our Portfolio</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Showcasing our successful projects</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>E-Commerce Platform</h5>
+                            <p>Full-featured online shopping solution</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>Enterprise Management System</h5>
+                            <p>Comprehensive business management solution</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <div class="portfolio-overlay">
+                                <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h5>Mobile Banking App</h5>
+                            <p>Secure mobile banking application</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Join Our Team</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Build your career with Dev Logic Infotech</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="careers-intro">We're always looking for talented individuals who are passionate about technology and innovation. Join us in creating cutting-edge solutions that make a difference.</p>
+                </div>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="career-benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h5>Learning & Development</h5>
+                        <p>Continuous learning opportunities and skill development programs</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="career-benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5>Great Team Culture</h5>
+                        <p>Work with talented professionals in a collaborative environment</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="career-benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h5>Career Growth</h5>
+                        <p>Clear career progression paths and growth opportunities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="text-center mb-4" style="color: var(--primary);">Open Positions</h3>
+                    <div class="job-listings">
+                        <div class="job-card">
+                            <div class="job-header">
+                                <h4>Senior Full Stack Developer</h4>
+                                <span class="job-type">Full-time</span>
+                            </div>
+                            <div class="job-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Remote / On-site</span>
+                                <span><i class="fas fa-briefcase"></i> 3-5 years</span>
+                            </div>
+                            <p class="job-description">We're looking for an experienced Full Stack Developer to join our team. You'll work on exciting projects using modern technologies.</p>
+                            <button class="btn btn-primary btn-apply" data-job="Senior Full Stack Developer">Apply Now</button>
+                        </div>
+                        <div class="job-card">
+                            <div class="job-header">
+                                <h4>UI/UX Designer</h4>
+                                <span class="job-type">Full-time</span>
+                            </div>
+                            <div class="job-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Remote / On-site</span>
+                                <span><i class="fas fa-briefcase"></i> 2-4 years</span>
+                            </div>
+                            <p class="job-description">Join our design team to create beautiful and intuitive user experiences for web and mobile applications.</p>
+                            <button class="btn btn-primary btn-apply" data-job="UI/UX Designer">Apply Now</button>
+                        </div>
+                        <div class="job-card">
+                            <div class="job-header">
+                                <h4>DevOps Engineer</h4>
+                                <span class="job-type">Full-time</span>
+                            </div>
+                            <div class="job-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Remote / On-site</span>
+                                <span><i class="fas fa-briefcase"></i> 3-5 years</span>
+                            </div>
+                            <p class="job-description">Help us build and maintain scalable infrastructure and deployment pipelines for our applications.</p>
+                            <button class="btn btn-primary btn-apply" data-job="DevOps Engineer">Apply Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Application Modal -->
+    <div class="modal fade" id="jobApplicationModal" tabindex="-1" aria-labelledby="jobApplicationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="background: linear-gradient(135deg, #5E2A7A, #D4AF37); color: white;">
+                    <h5 class="modal-title" id="jobApplicationModalLabel">Apply for <span id="modalJobTitle"></span></h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="jobApplicationForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Full Name *</label>
+                                <input type="text" class="form-control" name="fullName" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Email *</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Phone *</label>
+                                <input type="tel" class="form-control" name="phone" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">LinkedIn Profile</label>
+                                <input type="url" class="form-control" name="linkedin">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Cover Letter *</label>
+                                <textarea class="form-control" rows="4" name="coverLetter" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Resume/CV *</label>
+                                <input type="file" class="form-control" name="resume" accept=".pdf,.doc,.docx" required>
+                                <small class="text-muted">Accepted formats: PDF, DOC, DOCX (Max 5MB)</small>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title text-white">Get In Touch</h2>
+                    <div class="title-underline bg-white"></div>
+                    <p class="section-subtitle text-white">Let's discuss your next project</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 text-center">
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5>Address</h5>
+                        <p>123 Business Street<br>City, State 12345</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i>
+                        <h5>Phone</h5>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <h5>Email</h5>
+                        <p>info@devlogicinfotech.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2024 Dev Logic Infotech. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chat Assistant Widget -->
+    <div class="ai-chat-widget" id="aiChatWidget">
+        <div class="chat-header">
+            <div class="chat-header-content">
+                <div class="chat-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="chat-info">
+                    <h6>AI Assistant</h6>
+                    <span class="chat-status">Online</span>
+                </div>
+            </div>
+            <button class="chat-minimize" id="chatMinimize" type="button">
+                <i class="fas fa-minus"></i>
+            </button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div class="chat-welcome">
+                <p>Hello! I'm your AI assistant. How can I help you today?</p>
+                <div class="quick-questions">
+                    <button class="quick-btn" data-question="What services do you offer?">Services</button>
+                    <button class="quick-btn" data-question="Tell me about careers">Careers</button>
+                    <button class="quick-btn" data-question="How can I contact you?">Contact</button>
+                </div>
+            </div>
+            <div class="chat-messages" id="chatMessages"></div>
+        </div>
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+            <button class="chat-send" id="chatSend" type="button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    <button class="chat-toggle" id="chatToggle" type="button">
+        <i class="fas fa-comments"></i>
+        <span class="chat-badge">1</span>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
