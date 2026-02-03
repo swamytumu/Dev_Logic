@@ -1,15 +1,32 @@
-/* ===== Brand Color Palette ===== */
+
+/* :root {
+    --primary: #1c76b2;     
+    --secondary: #1F5F8B;   
+    --accent1: #F7931E;   
+    --accent2: #a94545;    
+    --background: #F5F8FB;  
+    --text-light: #a06767; 
+    --text-dark: #2C2C2C;
+    --card-bg: #f0e9e9;
+    --card-hover: #dbe1e7; 
+ }
+ */
 :root {
-    --primary: #D4AF37; /* Gold */
-    --secondary: #5E2A7A; /* Dark Purple */
-    --accent1: #B57BA6; /* Light Purple */
-    --accent2: #FFFFFF; /* White */
-    --background: #0A0A0F; /* Dark Black/Navy */
-    --text-light: rgba(255, 255, 255, 0.9);
-    --text-dark: #E0E0E0;
-    --card-bg: #1A1A24;
-    --card-hover: #252530;
+    --primary: #1c76b2;
+    --secondary: #1F5F8B;
+    --accent1: #F7931E;
+    --accent2: #965353;
+
+    --background: #fbfdff;
+
+    --text-light: #5A5A5A;   /* FIXED: Dark Grey for readability */
+    --text-dark: #1F2937;    /* FIXED: Strong text color */
+
+    --card-bg: #e39c9c;     /* FIXED: Pure white cards */
+    --card-hover: #EEF3F8;
 }
+
+
 
 /* ===== Global Styles ===== */
 * {
@@ -394,7 +411,7 @@ section:last-of-type {
 
 /* ===== Services Section ===== */
 .services-section {
-    background: linear-gradient(135deg, var(--secondary) 0%, var(--accent1) 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent1) 100%);
     border-top: 1px solid rgba(212, 175, 55, 0.2);
 }
 
@@ -651,20 +668,19 @@ section:last-of-type {
 /* ===== Contact Section ===== */
 .contact-section {
     background: var(--background);
-    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    border-top: 1px solid rgba(142, 126, 73, 0.2);
 }
 
 .contact-section .section-title {
-    color: var(--primary);
+    color: #1F2937; /* Dark blue-grey */
 }
-
 .contact-section .section-subtitle {
     color: var(--text-dark);
 }
 
 .contact-form .form-control {
     background: var(--card-bg);
-    border: 2px solid rgba(212, 175, 55, 0.3);
+    border: 2px solid rgba(46, 44, 40, 0.3);
     color: var(--text-dark);
     padding: 0.75rem 1rem;
     border-radius: 10px;
@@ -672,7 +688,7 @@ section:last-of-type {
 }
 
 .contact-form .form-control::placeholder {
-    color: rgba(224, 224, 224, 0.5);
+    color:  rgba(72, 52, 52, 0.5);
 }
 
 .contact-form .form-control:focus {
